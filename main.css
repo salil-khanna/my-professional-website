@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&fammily=Recursive&display=swap');
 
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
 /* Global Styles */
 
 *,
@@ -218,12 +223,12 @@ nav {
 
 .main-message h2{
     letter-spacing: .5rem;
-    font-size:4.0rem;
+    font-size: 4rem;
     font-weight: 400;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 4.5s steps(28), blink .95s ease-in-out 4.5s infinite;
-    width: 27ch;
+    animation: typing 3.5s steps(16), blink .95s ease-in-out 4.5s infinite;
+    width: 16ch;
     margin: auto;
     border-right: 4px solid rgba(255,255,255,1);
 }
@@ -233,7 +238,7 @@ nav {
         width: 0ch;
     }
     100%{
-        width:27ch;
+        width:16ch;
 
     }
 }
