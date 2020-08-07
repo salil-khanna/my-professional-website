@@ -234,7 +234,7 @@ nav {
 }
 
 @keyframes typing{
-    70%{
+    60%{
         width: 0ch;
     }
     100%{
@@ -353,3 +353,63 @@ hr {
     height: 1px;
 }
 
+/* Projects */
+
+.title-heading {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+  
+.title-heading h2 {
+    font-size: 4rem;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.projects {
+    padding: 3rem 0;
+    min-height: 100vh;
+    max-width: 70rem;
+    margin: auto;
+}
+
+.has-margin-right{
+    margin: 0 3rem 0 0;
+}
+
+.project-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1.45rem 5rem 1.45rem;
+}
+
+.project-img{
+    flex: 1;
+}
+
+.project-description{
+    flex: 1;
+}
+
+.project-description h2{
+    font-size: 2rem;
+    margin: 2rem 0;
+    background: linear-gradient(
+        to right,
+        rgb(255, 185, 35) 0%,
+        rgba(255, 255, 255, 1) 100%
+      );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project-description p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+}
+
+.project-link{
+    display: inline-block;
+    margin: 2rem 0;
+    font-size: 1.4rem;
+}
