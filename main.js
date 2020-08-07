@@ -20,6 +20,7 @@ selectElement(".menu-icon").addEventListener("click", () => {
     })
 });
 
+
 navLinks.forEach(link => {
     link.addEventListener("click", () => {
         selectElement(".nav-list").classList.toggle("active");
