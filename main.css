@@ -223,12 +223,12 @@ nav {
 
 .main-message h2{
     letter-spacing: .5rem;
-    font-size: 4rem;
+    font-size: 3.8rem;
     font-weight: 400;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 3.5s steps(16), blink .95s ease-in-out 4.5s infinite;
-    width: 16ch;
+    animation: typing 3.5s steps(15), blink .95s ease-in-out 3.5s infinite;
+    width: 15ch;
     margin: auto;
     border-right: 4px solid rgba(255,255,255,1);
 }
@@ -238,7 +238,7 @@ nav {
         width: 0ch;
     }
     100%{
-        width:16ch;
+        width:15ch;
 
     }
 }
@@ -253,7 +253,7 @@ nav {
 }
 
 .main-message h3{
-    font-size: 4rem;
+    font-size: 3.6rem;
     margin: 1rem 0;
     color: rgba(255,255,255,1)
 }
