@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: salilkhanna.com
+Token: 013d7970a4504c416d667e35e08eb49f0d0c8434f903c4f36a2bf56a5ad58607
