@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /documents/Resume%20(No%20Personal).pdf
+
+Sitemap: https://www.salilkhanna.com/sitemap.xml
