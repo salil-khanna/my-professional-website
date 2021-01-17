@@ -282,7 +282,7 @@ nav {
     color: #2e2e28e5;
     padding: 1rem 2.5rem;
     display: inline-block;
-    margin-top: 2rem;
+    margin-top: 1rem;
     transition: background-color 650ms;
     font-weight: 500;
     letter-spacing:2px;
@@ -356,6 +356,9 @@ nav {
     height: 1px;
   }
 
+  .project-hr {
+    margin: -1rem 0;
+  }
 
 /* Projects */
 
@@ -478,7 +481,7 @@ footer a{
     font-size: 2.8rem;
 }
 
-/* Respnsive Design */
+/* Responsive Design */
 
 @media (max-width: 750px) {
     .main-message h3 {
