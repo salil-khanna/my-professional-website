@@ -308,6 +308,26 @@ nav {
     background-color: rgba(189,72,0);
 }
 
+.btn2{
+    margin: 0 9px;
+    background: rgb(96, 240, 13);
+    border-radius: 2rem;
+    color: #2e2e28e5;
+    padding: 1rem 2.5rem;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: background-color 650ms;
+    font-weight: 500;
+    letter-spacing:2px;
+}
+
+.btn2:hover{
+    color:#fafafa;
+    background-color: rgba(189,72,0);
+}
+
+
+
 .scroll-down i{
     color: #fafafa;
     transition: color 650ms;
