@@ -13,6 +13,19 @@
     <title>Salad Spinner</title>
 </head>
 <body>
-    <p> <a href="https://relaxed-spence-acbac3.netlify.app/">Click here if page does not load</a>.</p>
+    
+    <div id="message" style="display:none; font-size: 80px;">
+        <p> <a href="https://relaxed-spence-acbac3.netlify.app/">Click here if page does not load</a>.</p>
+    </div>
+        
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+        //When the page has loaded.
+        $( document ).ready(function(){
+            $('#message').delay(2000).fadeIn('slow', function(){
+               $('#message'); 
+            });
+        });
+        </script>
 </body>
 </html>
