@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Salil Khanna's Resume"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon_io/favicon.ico">
+    <meta http-equiv="refresh" content="0; url='https://www.salilkhanna.com/documents/Resume%20(No%20Personal).pdf'" />
+    <title>Salil's Resume</title>
+</head>
+<body>
+    
+    <div id="message" style="display:none; font-size: 80px;">
+        <p> <a href="https://www.salilkhanna.com/documents/Resume%20(No%20Personal).pdf">Click here if page does not load</a>.</p>
+    </div>
+        
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+        //When the page has loaded.
+        $( document ).ready(function(){
+            $('#message').delay(2000).fadeIn('slow', function(){
+               $('#message'); 
+            });
+        });
+        </script>
+</body>
+</html>
